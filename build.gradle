@@ -31,7 +31,7 @@ dependencies {
 
     // Use the Kotlin JDK 8 standard library.
     implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
-    implementation 'origami:origami:4.3.0-3'
+    implementation 'origami:origami:4.3.0-4'
     implementation 'origami:filters:1.11'
     
     // Use the Kotlin test library.
