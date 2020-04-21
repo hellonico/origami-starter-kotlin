@@ -6,16 +6,8 @@ import origami.Origami
 import org.opencv.core.CvType
 import org.opencv.core.Mat
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello world."
-        }
-}
-
 fun main(args: Array<String>) {
 	Origami.init()
 	val hello = Mat.eye(3, 3, CvType.CV_8UC1)
     println(hello.dump())
-    // println(App().greeting)
 }
